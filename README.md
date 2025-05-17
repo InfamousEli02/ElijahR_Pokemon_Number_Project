@@ -1,9 +1,9 @@
 # ElijahR_Pokemon_Number_Project
 
-# Pika-Number Webpage
-This is Elijah Reed's project for TKH IF(The Knowledge House Innovation Fellowship) Web Development Cohort A. I call this project **Pika-Number Webpage**. For this project, we were required to create a web application that fetches data from a free API and displays it using HTML and CSS. This should be done using Vite with API calls being made using fetch or axios with Async/Await or .then/.catch
+# PokeInput DB Webpage
+This is Elijah Reed's project for TKH IF(The Knowledge House Innovation Fellowship) Web Development Cohort A. I call this project **PokeInput-DB Webpage**. For this project, we were required to create a web application that fetches data from a free API and displays it using HTML and CSS. This should be done using Vite with API calls being made using fetch or axios with Async/Await or .then/.catch
 
-For my project, I chose to use **PokeAPI**(https://pokeapi.co/). **PokeAPI** is a RESTful API linked to a database containing information about everything in the mainline Pokémon games. In **Pika-Number**, I used **PokeAPI** to display sprites(both normal and shiny), names, and other information such as their cries onto the webpage depending on the number(the Pokémon's id in **PokeAPI**) the user inputted.
+For my project, I chose to use **PokeAPI**(https://pokeapi.co/). **PokeAPI** is a RESTful API linked to a database containing information about everything in the mainline Pokémon games. In **PokeInput-DB**, I used **PokeAPI** to display sprites(both normal and shiny), names, and other information such as their cries onto the webpage depending on the number(the Pokémon's id in **PokeAPI**) the user inputted.
 
 ## Instructions
 - The project is run by inputting a number (between 1 and 1025) in the input bar and then pressing the "I choose you" button next to it.
