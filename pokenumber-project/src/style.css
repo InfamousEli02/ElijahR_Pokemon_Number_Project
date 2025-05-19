@@ -26,6 +26,22 @@ body {
   display: flex;
   flex-direction: row;
   align-items: center;
+  height: 57px;
+}
+
+/* styling for credit text and link */
+#credit{
+  margin: 3px;
+}
+
+#credit a{
+  color:white;
+  text-decoration: none;
+}
+
+/* underline only shows on link when mouse is hovering over it */
+#credit a:hover{
+  text-decoration: underline;
 }
 
 #pokeballImg{
@@ -39,12 +55,13 @@ body {
 }
 
 #input-container{
-  margin-bottom: 5px;
+  margin-bottom: 8px;
 }
 
 #pokemonNum{
   font-size: 15px;
   padding: 5px;
+  box-shadow: 0 0 16px black;
 }
 
 #catch-btn{
@@ -77,6 +94,7 @@ body {
   text-align: center;
   overflow-y: scroll;
   font-size: 10px;
+  box-shadow: 6px 6px 4px rgb(76, 76, 255);
 }
 
 #pokemonInfo{
@@ -94,6 +112,7 @@ body {
   font-size: 17px;
 }
 
+/* set margins to auto in order to have the sprites centered in the container */
 #sprite{
   margin-left: auto;
   margin-right: auto;
