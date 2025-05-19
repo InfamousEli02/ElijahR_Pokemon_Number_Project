@@ -11,3 +11,6 @@ For my project, I chose to use **PokeAPI**(https://pokeapi.co/). **PokeAPI** is 
 - Once it gets the id, the code will go through the Pokémon's data in the PokeAPI and load it up to the webpage.
 - The box, under the input section, that says "What could it be?" will then change to display the Pokémon associated with the number input in the database. 
 - From there, the user can scroll through the Pokémon's information(sprites, name, id, type, height, weight, abilities, base stats, and cries) or try to get a different Pokémon to appear.
+
+The final result should look something like this:
+![image](https://github.com/user-attachments/assets/ab7da575-cf73-4e35-9edf-c26eaac4e876)
