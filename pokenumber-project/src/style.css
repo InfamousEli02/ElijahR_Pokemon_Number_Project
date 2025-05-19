@@ -21,6 +21,18 @@ body {
   font-size: 36px;
 }
 
+/* container for title header and pokeball images */
+.header-container{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+#pokeballImg{
+  height: 40px;
+  width: 40px;
+}
+
 #explanation{
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 16px;
@@ -88,6 +100,7 @@ body {
 
 }
 
+/* audio elements are now round-edged instead of boxes */
 audio{
   border-radius: 20px;
 }
