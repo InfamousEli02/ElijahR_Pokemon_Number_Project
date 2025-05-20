@@ -51,13 +51,15 @@ async function pokemonID(){
         //adds specific pokemon's information to the page
         pokemonInfo.innerHTML = `
             <h2>It's...</h2>
-            <img id="sprite" src=${data.sprites.front_default} alt="This is the pokemon's sprite facing forward"></img>
-            <img id="sprite" src=${data.sprites.front_shiny} alt="This is the pokemon's sprite as a shiny, facing forward"></img>
+            <img id="sprite" src=${data.sprites.front_default} alt="The pokemon's sprite facing forward"></img>
+            <img id="sprite" src=${data.sprites.front_shiny} alt="The pokemon's sprite as a shiny, facing forward"></img>
             <h1>Name: ${data.name}</h1>
+
             <p><strong>Id:</strong> ${data.id}</p>
             <p><strong>Type(s):</strong> ${pokeType}</p>
             <p><strong>Height:</strong> ${data.height}</p>
             <p><strong>Weight:</strong> ${data.weight}</p>
+            
             <p><strong>Abilities:</strong></p>
             <p>${pokeAbility}</p>
 

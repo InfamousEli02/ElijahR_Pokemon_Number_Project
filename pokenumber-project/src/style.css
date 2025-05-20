@@ -7,7 +7,7 @@ body {
   height: 100vh;
   flex-direction: column;
   box-sizing: border-box;
-  background-image: linear-gradient(red,white);
+  background-image: linear-gradient(rgb(253, 24, 24),white);
 }
 
 #header, #explanation{
@@ -56,12 +56,13 @@ body {
 
 #input-container{
   margin-bottom: 8px;
+  
 }
 
 #pokemonNum{
   font-size: 15px;
   padding: 5px;
-  box-shadow: 0 0 16px black;
+  border: 1px solid black;
 }
 
 #catch-btn{
@@ -77,10 +78,11 @@ body {
   transition: border 0.20s;
 }
 
-/* hovering over the button makes the border turn white and changes color of the button */
+/* hovering over the button makes the border turn white and changes color of the button to the
+blue from the Great Ball color pallete */
 #catch-btn:hover {
   border: 1px solid white;
-  background-color: rgb(253, 131, 131);
+  background-color: #3b82c4;
 }
 
 /* container containing pokemon's info */
@@ -94,7 +96,8 @@ body {
   text-align: center;
   overflow-y: scroll;
   font-size: 10px;
-  box-shadow: 6px 6px 4px rgb(76, 76, 255);
+  /* using box shadow to create card effect */
+  box-shadow: 0 6px 8px 4px black;
 }
 
 #pokemonInfo{
@@ -104,7 +107,7 @@ body {
   
 }
 
-#pokemonInfo p{
+#pokemonInfo p, h1{
   font-family: Arial, Helvetica, sans-serif;
 }
 
