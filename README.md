@@ -13,4 +13,5 @@ For my project, I chose to use **PokeAPI**(https://pokeapi.co/). **PokeAPI** is 
 - From there, the user can scroll through the Pokémon's information(sprites, name, id, type, height, weight, abilities, base stats, and cries) or try to get a different Pokémon to appear.
 
 The final result should look something like this:
-![image](https://github.com/user-attachments/assets/ab7da575-cf73-4e35-9edf-c26eaac4e876)
+![image](https://github.com/user-attachments/assets/ebd5213c-6495-4470-815a-e65126565c07)
+
